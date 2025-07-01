@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* PrayersForAfricaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PrayersForAfricaAppTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D18B8549A1AC439C849F54A5 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99B0E447FBC941A0937188D8 /* NotoSans-Regular.ttf */; };
+		5D4BFAAB58D0438D8B79B0DF /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5BEB9E74C9542EA86BC8EAD /* PlayfairDisplay-SemiBold.ttf */; };
+		0C52BE229EAC4C6A862D8DC7 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D15CADF9AC5A42EBB0B96E79 /* NotoSans-Italic.ttf */; };
+		023172520DC5497AB4C736AE /* aboutGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDFC0028C844749B5933BF /* aboutGradient.png */; };
+		AFA8D9D6ADA14A3B846ECB4B /* aboutImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 414E44EA56244DB8959B8778 /* aboutImage.png */; };
+		FC40759FA40E4E748D5236BE /* articlesGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 394A6D9EA9CB49808F9F958B /* articlesGradient.png */; };
+		B7004CB6BAF84588BE221BB8 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAAC94D3704464CBDD1B44E /* cross.png */; };
+		20AA48F1F0394C75800164C4 /* donationGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = A30C1242DDF44E9699AF5922 /* donationGradient.png */; };
+		B1A2616C1AEF4390B63F4550 /* donationImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D42B1DA18E614EA3AA22EC59 /* donationImage.png */; };
+		A384507F92DC4CA7BF799DAA /* firstTarif.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B326B95CF044E6A1336017 /* firstTarif.png */; };
+		7409DDF90BED46F4A5157069 /* homeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B2462DBDCC4FB58F47E612 /* homeBackground.png */; };
+		994C62A681324D86AA9105CC /* homePng.png in Resources */ = {isa = PBXBuildFile; fileRef = CC163878AFF84CA7A2487268 /* homePng.png */; };
+		4F9415C1E74F4C02BAF3D37E /* apple.svg in Resources */ = {isa = PBXBuildFile; fileRef = BB3AE3CEFAA84497AB010CBE /* apple.svg */; };
+		03EE440B0B1C41E88C55FA00 /* articles.svg in Resources */ = {isa = PBXBuildFile; fileRef = A14AF6D6810142DD9F74495F /* articles.svg */; };
+		709A73460BBF4221BADBDAF3 /* backArrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 96037AD9928649119077B74C /* backArrow.svg */; };
+		AF047398A5574B488BD6A0AF /* bookmark.svg in Resources */ = {isa = PBXBuildFile; fileRef = 85ABC9E68C6145019A655ED7 /* bookmark.svg */; };
+		A855EDBF7CC448F29827FAB0 /* checkmark.svg in Resources */ = {isa = PBXBuildFile; fileRef = C0E0AEB9F7FD46959C2A5DB3 /* checkmark.svg */; };
+		57389BB53C5047F9A3353C72 /* donations.svg in Resources */ = {isa = PBXBuildFile; fileRef = DC99FCE2EB014A73BFB8E0EE /* donations.svg */; };
+		B67D3CEF21A74BE4B1189F0E /* downArrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6B273952D1EC43F5ACFC0D70 /* downArrow.svg */; };
+		270E743660CE4F11BF15DB86 /* filter.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9F5614D4582F4F8EA3043E7B /* filter.svg */; };
+		BEEC26E258294E10B7EDCF0D /* forwardArrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = A50CA47EC4394AAFAE5C4A5A /* forwardArrow.svg */; };
+		64D1D486B3AF479C866AD9C3 /* google.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0CE2C68DEABA4CD7889FFB26 /* google.svg */; };
+		8A5D30DA16C240489B75856A /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 28D689338E2645C8AE32073E /* home.svg */; };
+		866F2334552840AC921D5581 /* pastors.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3CF069A9A72C4BE09D02F363 /* pastors.svg */; };
+		92696A0972BA4EDA923F6FD4 /* prayers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5BFFA761B84B1E9E88CE8C /* prayers.svg */; };
+		78FD98D297C94E35959E0E8C /* search.svg in Resources */ = {isa = PBXBuildFile; fileRef = E9075967405D43489CFF966E /* search.svg */; };
+		D5264FD9FB1144CE9B1CD3A4 /* share.svg in Resources */ = {isa = PBXBuildFile; fileRef = CA57073E548E42C480037DE8 /* share.svg */; };
+		DD23ACB36A294D91BB636DCA /* tooltip.svg in Resources */ = {isa = PBXBuildFile; fileRef = D1E9D25AB8654892830D6DF8 /* tooltip.svg */; };
+		978FAF9E85374D07AC9A7F02 /* user.svg in Resources */ = {isa = PBXBuildFile; fileRef = AC8B008C16294C6494573A91 /* user.svg */; };
+		E075CBD140704873B6229868 /* volumeOff.svg in Resources */ = {isa = PBXBuildFile; fileRef = AF8824E9978745118CF33215 /* volumeOff.svg */; };
+		3D60A520D5484030AEBB70DE /* CharlesStanley.png in Resources */ = {isa = PBXBuildFile; fileRef = 061CB8CA108D4551A864D9FF /* CharlesStanley.png */; };
+		668F99C7F3314BEA8E130C8B /* FredJohnson.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF41CA671CE4592B63EF9D2 /* FredJohnson.png */; };
+		E2C42439DF2A4286BE7F8811 /* JoelEvans.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D497E81F1744C4BFF8B4F3 /* JoelEvans.png */; };
+		D97F297731554077821FB44B /* JoelEvansInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B6029E934E48EFA771B1A3 /* JoelEvansInfo.png */; };
+		765668DD026A409DB0EE9C22 /* JohnBunyan.png in Resources */ = {isa = PBXBuildFile; fileRef = CABB85ECC5A4446AB3FE55B0 /* JohnBunyan.png */; };
+		B9BF5112D9D946EFBC28CDC4 /* PaulWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FC35D6170614802B2EE7028 /* PaulWhite.png */; };
+		724133C85F954245B184BBE0 /* RobertHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E61681EBD846C690D60A95 /* RobertHall.png */; };
+		0BFF59807D994EA8A06AD783 /* RobertHall1.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A749A372E84FE2ADBBDCD8 /* RobertHall1.png */; };
+		8E6525E482664B3EB578A54C /* RobertHall2.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A6466E664F4AC3A6CC9DDA /* RobertHall2.png */; };
+		120548D157674737BE8F1488 /* RobertHall3.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DA5D5955204686B744CE4A /* RobertHall3.png */; };
+		2DDE0FB208484F53B9C4FB4A /* RobertHall4.png in Resources */ = {isa = PBXBuildFile; fileRef = B016B4A429A8466DB0F273E1 /* RobertHall4.png */; };
+		900E641123F94F22B887776D /* RobertHall5.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5AA2825CF04C58844E57BD /* RobertHall5.png */; };
+		96942DC1304349E580D16206 /* ThomasMeyer.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E11E6A20954C5E92940132 /* ThomasMeyer.png */; };
+		D9182DEC0DAC4963900876F5 /* drugs.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A15015F993142DE8FBA4501 /* drugs.png */; };
+		CBCEC02AD19B4F259EC34A78 /* emotions.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A8E178DEE4443843E11F7 /* emotions.png */; };
+		C855043F5EA143A4B2676881 /* family.png in Resources */ = {isa = PBXBuildFile; fileRef = 3929D8B96C7D48C59FD11CF0 /* family.png */; };
+		43B30FB6014C40AE938DA0B1 /* finances.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6F62B521734FB99E2625A8 /* finances.png */; };
+		E9C7DF4516FE4737B1C4C9D7 /* general.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F381FF9B27D4987B66263B2 /* general.png */; };
+		4D0E7AE15A6C4FFEBA210B2F /* healing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B602DA733A448C38FFEF438 /* healing.png */; };
+		097178495B4C422DA8792ECC /* prayGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 897FBEDFD10C4F5D8780F6CB /* prayGradient.png */; };
+		653ED8DB445C4DF2B76E0B4C /* salvation.png in Resources */ = {isa = PBXBuildFile; fileRef = 94AEDF4F3F26489D91479401 /* salvation.png */; };
+		AD416B4CD554417889678169 /* salvationImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A61F81A82C4C39AB352D18 /* salvationImage.png */; };
+		42DE14CF1CC74F33B437478E /* sexualIssues.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F03857D31A24D31BC2DB592 /* sexualIssues.png */; };
+		81865402740747C9A26BE521 /* renewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C4C7640FCC47BF80BFEDCA /* renewBackground.png */; };
+		28B1BBF256364AB79C9B4162 /* secondTarif.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B892501B154401C9D607F27 /* secondTarif.png */; };
+		598B1FE2051A4EBB9147E276 /* spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1DDD3DBA2F4885A5E1001C /* spinner.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = MyReactNativeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* MyReactNativeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReactNativeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MyReactNativeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyReactNativeAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MyReactNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReactNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyReactNativeApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyReactNativeApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyReactNativeApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyReactNativeApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyReactNativeApp/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyReactNativeApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		99B0E447FBC941A0937188D8 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; name = "NotoSans-Regular.ttf"; path = "../src/assets/fonts/NotoSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5BEB9E74C9542EA86BC8EAD /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; name = "PlayfairDisplay-SemiBold.ttf"; path = "../src/assets/fonts/PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D15CADF9AC5A42EBB0B96E79 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; name = "NotoSans-Italic.ttf"; path = "../src/assets/fonts/NotoSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CCDFC0028C844749B5933BF /* aboutGradient.png */ = {isa = PBXFileReference; name = "aboutGradient.png"; path = "../src/assets/img/aboutGradient.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		414E44EA56244DB8959B8778 /* aboutImage.png */ = {isa = PBXFileReference; name = "aboutImage.png"; path = "../src/assets/img/aboutImage.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		394A6D9EA9CB49808F9F958B /* articlesGradient.png */ = {isa = PBXFileReference; name = "articlesGradient.png"; path = "../src/assets/img/articlesGradient.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CCAAC94D3704464CBDD1B44E /* cross.png */ = {isa = PBXFileReference; name = "cross.png"; path = "../src/assets/img/cross.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A30C1242DDF44E9699AF5922 /* donationGradient.png */ = {isa = PBXFileReference; name = "donationGradient.png"; path = "../src/assets/img/donationGradient.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D42B1DA18E614EA3AA22EC59 /* donationImage.png */ = {isa = PBXFileReference; name = "donationImage.png"; path = "../src/assets/img/donationImage.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3B326B95CF044E6A1336017 /* firstTarif.png */ = {isa = PBXFileReference; name = "firstTarif.png"; path = "../src/assets/img/firstTarif.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1B2462DBDCC4FB58F47E612 /* homeBackground.png */ = {isa = PBXFileReference; name = "homeBackground.png"; path = "../src/assets/img/homeBackground.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC163878AFF84CA7A2487268 /* homePng.png */ = {isa = PBXFileReference; name = "homePng.png"; path = "../src/assets/img/homePng.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB3AE3CEFAA84497AB010CBE /* apple.svg */ = {isa = PBXFileReference; name = "apple.svg"; path = "../src/assets/img/icons/apple.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A14AF6D6810142DD9F74495F /* articles.svg */ = {isa = PBXFileReference; name = "articles.svg"; path = "../src/assets/img/icons/articles.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96037AD9928649119077B74C /* backArrow.svg */ = {isa = PBXFileReference; name = "backArrow.svg"; path = "../src/assets/img/icons/backArrow.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		85ABC9E68C6145019A655ED7 /* bookmark.svg */ = {isa = PBXFileReference; name = "bookmark.svg"; path = "../src/assets/img/icons/bookmark.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0E0AEB9F7FD46959C2A5DB3 /* checkmark.svg */ = {isa = PBXFileReference; name = "checkmark.svg"; path = "../src/assets/img/icons/checkmark.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DC99FCE2EB014A73BFB8E0EE /* donations.svg */ = {isa = PBXFileReference; name = "donations.svg"; path = "../src/assets/img/icons/donations.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B273952D1EC43F5ACFC0D70 /* downArrow.svg */ = {isa = PBXFileReference; name = "downArrow.svg"; path = "../src/assets/img/icons/downArrow.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F5614D4582F4F8EA3043E7B /* filter.svg */ = {isa = PBXFileReference; name = "filter.svg"; path = "../src/assets/img/icons/filter.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A50CA47EC4394AAFAE5C4A5A /* forwardArrow.svg */ = {isa = PBXFileReference; name = "forwardArrow.svg"; path = "../src/assets/img/icons/forwardArrow.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0CE2C68DEABA4CD7889FFB26 /* google.svg */ = {isa = PBXFileReference; name = "google.svg"; path = "../src/assets/img/icons/google.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		28D689338E2645C8AE32073E /* home.svg */ = {isa = PBXFileReference; name = "home.svg"; path = "../src/assets/img/icons/home.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3CF069A9A72C4BE09D02F363 /* pastors.svg */ = {isa = PBXFileReference; name = "pastors.svg"; path = "../src/assets/img/icons/pastors.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5E5BFFA761B84B1E9E88CE8C /* prayers.svg */ = {isa = PBXFileReference; name = "prayers.svg"; path = "../src/assets/img/icons/prayers.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9075967405D43489CFF966E /* search.svg */ = {isa = PBXFileReference; name = "search.svg"; path = "../src/assets/img/icons/search.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA57073E548E42C480037DE8 /* share.svg */ = {isa = PBXFileReference; name = "share.svg"; path = "../src/assets/img/icons/share.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1E9D25AB8654892830D6DF8 /* tooltip.svg */ = {isa = PBXFileReference; name = "tooltip.svg"; path = "../src/assets/img/icons/tooltip.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC8B008C16294C6494573A91 /* user.svg */ = {isa = PBXFileReference; name = "user.svg"; path = "../src/assets/img/icons/user.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF8824E9978745118CF33215 /* volumeOff.svg */ = {isa = PBXFileReference; name = "volumeOff.svg"; path = "../src/assets/img/icons/volumeOff.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		061CB8CA108D4551A864D9FF /* CharlesStanley.png */ = {isa = PBXFileReference; name = "CharlesStanley.png"; path = "../src/assets/img/pastors/CharlesStanley.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CF41CA671CE4592B63EF9D2 /* FredJohnson.png */ = {isa = PBXFileReference; name = "FredJohnson.png"; path = "../src/assets/img/pastors/FredJohnson.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92D497E81F1744C4BFF8B4F3 /* JoelEvans.png */ = {isa = PBXFileReference; name = "JoelEvans.png"; path = "../src/assets/img/pastors/JoelEvans.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91B6029E934E48EFA771B1A3 /* JoelEvansInfo.png */ = {isa = PBXFileReference; name = "JoelEvansInfo.png"; path = "../src/assets/img/pastors/JoelEvansInfo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CABB85ECC5A4446AB3FE55B0 /* JohnBunyan.png */ = {isa = PBXFileReference; name = "JohnBunyan.png"; path = "../src/assets/img/pastors/JohnBunyan.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4FC35D6170614802B2EE7028 /* PaulWhite.png */ = {isa = PBXFileReference; name = "PaulWhite.png"; path = "../src/assets/img/pastors/PaulWhite.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77E61681EBD846C690D60A95 /* RobertHall.png */ = {isa = PBXFileReference; name = "RobertHall.png"; path = "../src/assets/img/pastors/RobertHall.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8A749A372E84FE2ADBBDCD8 /* RobertHall1.png */ = {isa = PBXFileReference; name = "RobertHall1.png"; path = "../src/assets/img/pastors/RobertHall1.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B0A6466E664F4AC3A6CC9DDA /* RobertHall2.png */ = {isa = PBXFileReference; name = "RobertHall2.png"; path = "../src/assets/img/pastors/RobertHall2.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1DA5D5955204686B744CE4A /* RobertHall3.png */ = {isa = PBXFileReference; name = "RobertHall3.png"; path = "../src/assets/img/pastors/RobertHall3.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B016B4A429A8466DB0F273E1 /* RobertHall4.png */ = {isa = PBXFileReference; name = "RobertHall4.png"; path = "../src/assets/img/pastors/RobertHall4.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF5AA2825CF04C58844E57BD /* RobertHall5.png */ = {isa = PBXFileReference; name = "RobertHall5.png"; path = "../src/assets/img/pastors/RobertHall5.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2E11E6A20954C5E92940132 /* ThomasMeyer.png */ = {isa = PBXFileReference; name = "ThomasMeyer.png"; path = "../src/assets/img/pastors/ThomasMeyer.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A15015F993142DE8FBA4501 /* drugs.png */ = {isa = PBXFileReference; name = "drugs.png"; path = "../src/assets/img/prayers/drugs.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6E3A8E178DEE4443843E11F7 /* emotions.png */ = {isa = PBXFileReference; name = "emotions.png"; path = "../src/assets/img/prayers/emotions.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3929D8B96C7D48C59FD11CF0 /* family.png */ = {isa = PBXFileReference; name = "family.png"; path = "../src/assets/img/prayers/family.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DC6F62B521734FB99E2625A8 /* finances.png */ = {isa = PBXFileReference; name = "finances.png"; path = "../src/assets/img/prayers/finances.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F381FF9B27D4987B66263B2 /* general.png */ = {isa = PBXFileReference; name = "general.png"; path = "../src/assets/img/prayers/general.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B602DA733A448C38FFEF438 /* healing.png */ = {isa = PBXFileReference; name = "healing.png"; path = "../src/assets/img/prayers/healing.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		897FBEDFD10C4F5D8780F6CB /* prayGradient.png */ = {isa = PBXFileReference; name = "prayGradient.png"; path = "../src/assets/img/prayers/prayGradient.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		94AEDF4F3F26489D91479401 /* salvation.png */ = {isa = PBXFileReference; name = "salvation.png"; path = "../src/assets/img/prayers/salvation.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		09A61F81A82C4C39AB352D18 /* salvationImage.png */ = {isa = PBXFileReference; name = "salvationImage.png"; path = "../src/assets/img/prayers/salvationImage.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F03857D31A24D31BC2DB592 /* sexualIssues.png */ = {isa = PBXFileReference; name = "sexualIssues.png"; path = "../src/assets/img/prayers/sexualIssues.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75C4C7640FCC47BF80BFEDCA /* renewBackground.png */ = {isa = PBXFileReference; name = "renewBackground.png"; path = "../src/assets/img/renewBackground.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B892501B154401C9D607F27 /* secondTarif.png */ = {isa = PBXFileReference; name = "secondTarif.png"; path = "../src/assets/img/secondTarif.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7D1DDD3DBA2F4885A5E1001C /* spinner.png */ = {isa = PBXFileReference; name = "spinner.png"; path = "../src/assets/img/spinner.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* MyReactNativeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* MyReactNativeAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = MyReactNativeAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* MyReactNativeApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = MyReactNativeApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* MyReactNativeApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* MyReactNativeAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				2964569333C14146AEF59743 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MyReactNativeApp.app */,
+				00E356EE1AD99517003FC87E /* MyReactNativeAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2964569333C14146AEF59743 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				99B0E447FBC941A0937188D8 /* NotoSans-Regular.ttf */,
+				A5BEB9E74C9542EA86BC8EAD /* PlayfairDisplay-SemiBold.ttf */,
+				D15CADF9AC5A42EBB0B96E79 /* NotoSans-Italic.ttf */,
+				4CCDFC0028C844749B5933BF /* aboutGradient.png */,
+				414E44EA56244DB8959B8778 /* aboutImage.png */,
+				394A6D9EA9CB49808F9F958B /* articlesGradient.png */,
+				CCAAC94D3704464CBDD1B44E /* cross.png */,
+				A30C1242DDF44E9699AF5922 /* donationGradient.png */,
+				D42B1DA18E614EA3AA22EC59 /* donationImage.png */,
+				B3B326B95CF044E6A1336017 /* firstTarif.png */,
+				F1B2462DBDCC4FB58F47E612 /* homeBackground.png */,
+				CC163878AFF84CA7A2487268 /* homePng.png */,
+				BB3AE3CEFAA84497AB010CBE /* apple.svg */,
+				A14AF6D6810142DD9F74495F /* articles.svg */,
+				96037AD9928649119077B74C /* backArrow.svg */,
+				85ABC9E68C6145019A655ED7 /* bookmark.svg */,
+				C0E0AEB9F7FD46959C2A5DB3 /* checkmark.svg */,
+				DC99FCE2EB014A73BFB8E0EE /* donations.svg */,
+				6B273952D1EC43F5ACFC0D70 /* downArrow.svg */,
+				9F5614D4582F4F8EA3043E7B /* filter.svg */,
+				A50CA47EC4394AAFAE5C4A5A /* forwardArrow.svg */,
+				0CE2C68DEABA4CD7889FFB26 /* google.svg */,
+				28D689338E2645C8AE32073E /* home.svg */,
+				3CF069A9A72C4BE09D02F363 /* pastors.svg */,
+				5E5BFFA761B84B1E9E88CE8C /* prayers.svg */,
+				E9075967405D43489CFF966E /* search.svg */,
+				CA57073E548E42C480037DE8 /* share.svg */,
+				D1E9D25AB8654892830D6DF8 /* tooltip.svg */,
+				AC8B008C16294C6494573A91 /* user.svg */,
+				AF8824E9978745118CF33215 /* volumeOff.svg */,
+				061CB8CA108D4551A864D9FF /* CharlesStanley.png */,
+				4CF41CA671CE4592B63EF9D2 /* FredJohnson.png */,
+				92D497E81F1744C4BFF8B4F3 /* JoelEvans.png */,
+				91B6029E934E48EFA771B1A3 /* JoelEvansInfo.png */,
+				CABB85ECC5A4446AB3FE55B0 /* JohnBunyan.png */,
+				4FC35D6170614802B2EE7028 /* PaulWhite.png */,
+				77E61681EBD846C690D60A95 /* RobertHall.png */,
+				B8A749A372E84FE2ADBBDCD8 /* RobertHall1.png */,
+				B0A6466E664F4AC3A6CC9DDA /* RobertHall2.png */,
+				B1DA5D5955204686B744CE4A /* RobertHall3.png */,
+				B016B4A429A8466DB0F273E1 /* RobertHall4.png */,
+				EF5AA2825CF04C58844E57BD /* RobertHall5.png */,
+				C2E11E6A20954C5E92940132 /* ThomasMeyer.png */,
+				6A15015F993142DE8FBA4501 /* drugs.png */,
+				6E3A8E178DEE4443843E11F7 /* emotions.png */,
+				3929D8B96C7D48C59FD11CF0 /* family.png */,
+				DC6F62B521734FB99E2625A8 /* finances.png */,
+				9F381FF9B27D4987B66263B2 /* general.png */,
+				3B602DA733A448C38FFEF438 /* healing.png */,
+				897FBEDFD10C4F5D8780F6CB /* prayGradient.png */,
+				94AEDF4F3F26489D91479401 /* salvation.png */,
+				09A61F81A82C4C39AB352D18 /* salvationImage.png */,
+				0F03857D31A24D31BC2DB592 /* sexualIssues.png */,
+				75C4C7640FCC47BF80BFEDCA /* renewBackground.png */,
+				6B892501B154401C9D607F27 /* secondTarif.png */,
+				7D1DDD3DBA2F4885A5E1001C /* spinner.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* MyReactNativeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyReactNativeAppTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = MyReactNativeAppTests;
+			productName = MyReactNativeAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* MyReactNativeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* MyReactNativeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyReactNativeApp" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyReactNativeApp;
+			productName = MyReactNativeApp;
+			productReference = 13B07F961A680F5B00A75B9A /* MyReactNativeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyReactNativeApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* MyReactNativeApp */,
+				00E356ED1AD99517003FC87E /* MyReactNativeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D18B8549A1AC439C849F54A5 /* NotoSans-Regular.ttf in Resources */,
+				5D4BFAAB58D0438D8B79B0DF /* PlayfairDisplay-SemiBold.ttf in Resources */,
+				0C52BE229EAC4C6A862D8DC7 /* NotoSans-Italic.ttf in Resources */,
+				023172520DC5497AB4C736AE /* aboutGradient.png in Resources */,
+				AFA8D9D6ADA14A3B846ECB4B /* aboutImage.png in Resources */,
+				FC40759FA40E4E748D5236BE /* articlesGradient.png in Resources */,
+				B7004CB6BAF84588BE221BB8 /* cross.png in Resources */,
+				20AA48F1F0394C75800164C4 /* donationGradient.png in Resources */,
+				B1A2616C1AEF4390B63F4550 /* donationImage.png in Resources */,
+				A384507F92DC4CA7BF799DAA /* firstTarif.png in Resources */,
+				7409DDF90BED46F4A5157069 /* homeBackground.png in Resources */,
+				994C62A681324D86AA9105CC /* homePng.png in Resources */,
+				4F9415C1E74F4C02BAF3D37E /* apple.svg in Resources */,
+				03EE440B0B1C41E88C55FA00 /* articles.svg in Resources */,
+				709A73460BBF4221BADBDAF3 /* backArrow.svg in Resources */,
+				AF047398A5574B488BD6A0AF /* bookmark.svg in Resources */,
+				A855EDBF7CC448F29827FAB0 /* checkmark.svg in Resources */,
+				57389BB53C5047F9A3353C72 /* donations.svg in Resources */,
+				B67D3CEF21A74BE4B1189F0E /* downArrow.svg in Resources */,
+				270E743660CE4F11BF15DB86 /* filter.svg in Resources */,
+				BEEC26E258294E10B7EDCF0D /* forwardArrow.svg in Resources */,
+				64D1D486B3AF479C866AD9C3 /* google.svg in Resources */,
+				8A5D30DA16C240489B75856A /* home.svg in Resources */,
+				866F2334552840AC921D5581 /* pastors.svg in Resources */,
+				92696A0972BA4EDA923F6FD4 /* prayers.svg in Resources */,
+				78FD98D297C94E35959E0E8C /* search.svg in Resources */,
+				D5264FD9FB1144CE9B1CD3A4 /* share.svg in Resources */,
+				DD23ACB36A294D91BB636DCA /* tooltip.svg in Resources */,
+				978FAF9E85374D07AC9A7F02 /* user.svg in Resources */,
+				E075CBD140704873B6229868 /* volumeOff.svg in Resources */,
+				3D60A520D5484030AEBB70DE /* CharlesStanley.png in Resources */,
+				668F99C7F3314BEA8E130C8B /* FredJohnson.png in Resources */,
+				E2C42439DF2A4286BE7F8811 /* JoelEvans.png in Resources */,
+				D97F297731554077821FB44B /* JoelEvansInfo.png in Resources */,
+				765668DD026A409DB0EE9C22 /* JohnBunyan.png in Resources */,
+				B9BF5112D9D946EFBC28CDC4 /* PaulWhite.png in Resources */,
+				724133C85F954245B184BBE0 /* RobertHall.png in Resources */,
+				0BFF59807D994EA8A06AD783 /* RobertHall1.png in Resources */,
+				8E6525E482664B3EB578A54C /* RobertHall2.png in Resources */,
+				120548D157674737BE8F1488 /* RobertHall3.png in Resources */,
+				2DDE0FB208484F53B9C4FB4A /* RobertHall4.png in Resources */,
+				900E641123F94F22B887776D /* RobertHall5.png in Resources */,
+				96942DC1304349E580D16206 /* ThomasMeyer.png in Resources */,
+				D9182DEC0DAC4963900876F5 /* drugs.png in Resources */,
+				CBCEC02AD19B4F259EC34A78 /* emotions.png in Resources */,
+				C855043F5EA143A4B2676881 /* family.png in Resources */,
+				43B30FB6014C40AE938DA0B1 /* finances.png in Resources */,
+				E9C7DF4516FE4737B1C4C9D7 /* general.png in Resources */,
+				4D0E7AE15A6C4FFEBA210B2F /* healing.png in Resources */,
+				097178495B4C422DA8792ECC /* prayGradient.png in Resources */,
+				653ED8DB445C4DF2B76E0B4C /* salvation.png in Resources */,
+				AD416B4CD554417889678169 /* salvationImage.png in Resources */,
+				42DE14CF1CC74F33B437478E /* sexualIssues.png in Resources */,
+				81865402740747C9A26BE521 /* renewBackground.png in Resources */,
+				28B1BBF256364AB79C9B4162 /* secondTarif.png in Resources */,
+				598B1FE2051A4EBB9147E276 /* spinner.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* MyReactNativeAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* MyReactNativeApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyReactNativeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReactNativeApp.app/MyReactNativeApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = MyReactNativeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReactNativeApp.app/MyReactNativeApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MyReactNativeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MyReactNativeApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = MyReactNativeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MyReactNativeApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyReactNativeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyReactNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyReactNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
