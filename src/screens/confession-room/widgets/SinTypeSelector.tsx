@@ -49,8 +49,10 @@ const SinTypeSelector = ({ initialValue, onValueChanged }) => {
       >
         <Element elementType="against-god" />
         <Element elementType="against-fellow" />
+        <Element elementType="against-neighboor" />
         <Element elementType="against-yourself" />
         <Element elementType="against-truth" />
+
       </ScrollView>
     </View>
   );

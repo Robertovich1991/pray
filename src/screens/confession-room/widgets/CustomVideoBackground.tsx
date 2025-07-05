@@ -29,6 +29,9 @@ const extractVideo = (assetSource: SinCardVideoKey) => {
     case 'Candle2': {
       return Assets.SinCardVideos.Candle2;
     }
+     case 'Flattery': {
+      return Assets.SinCardVideos.Flattery;
+    }
     case 'Columns1': {
       return Assets.SinCardVideos.Columns1;
     }

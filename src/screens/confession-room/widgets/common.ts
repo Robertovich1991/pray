@@ -5,6 +5,7 @@ export const sinTypeDescription: Record<SinType, string> = {
   'against-fellow': 'Against fellow',
   'against-yourself': 'Against yourself',
   'against-truth': 'Against Truth',
+  'against-neighboor': 'Against neighboor'
 };
 
 export const sinSeverityDescription: Record<SinSeverity, string> = {

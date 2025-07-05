@@ -1,4 +1,4 @@
-type SinType = 'against-god' | 'against-fellow' | 'against-yourself' | "against-truth";
+type SinType = 'against-god' | 'against-fellow' | 'against-yourself' | "against-truth"|'against-neighboor'
 type SinSeverity = 'light' | 'medium' | 'grave';
 
 type SinCardImageKey =
@@ -15,6 +15,7 @@ type SinCardVideoKey =
   | 'Bubbles'
   | 'Candle1'
   | 'Candle2'
+  | 'Flattery'
   | 'Candles'
   | 'Columns1'
   | 'Face'

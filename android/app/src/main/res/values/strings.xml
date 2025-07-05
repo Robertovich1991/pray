@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pray</string>
+    <string name="app_name">Pray-online</string>
     <string name="facebook_app_id">1022560635589446</string>
     <string name="fb_login_protocol_scheme">fb1022560635589446</string>
     <string name="facebook_client_token">7999ff7f5709c573177dadb3038fc94c</string>

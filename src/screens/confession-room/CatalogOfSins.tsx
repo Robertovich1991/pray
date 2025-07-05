@@ -62,7 +62,7 @@ const CatalogOfSins = () => {
         />
         <Divider height={responsiveWidth(12)} />
         <FlatList
-          data={sinElements.filter(sin =>
+          data={sinElements.filter(sin =>            
             filterSin({ sin, sinType, sinSeverity, searchQuery }),
           )}
           renderItem={sin => (
