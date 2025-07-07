@@ -5,6 +5,9 @@ import { lightAgainstYourselfSins } from './light-against-yourself';
 import { mediumAgainstTruthSins } from './medium-against-truth';
 import { mediumAgainstGodSins } from './medium-against-god'
 import { mediumAgainstNeighboorSins } from './medium-against-neighboor';
+import { mediumAgainstYourselfSins } from './medium-against-yourself';
+import { graveAgainstNeighboorSins } from './grave-against-neighboor';
+import { graveAgainstYourselfSins } from './grave-against-yourself';
 
 export const sinElements = [
   ...againstGodSins,
@@ -14,5 +17,8 @@ export const sinElements = [
   ///
   ...lightAgainstTruthSins,
   ...mediumAgainstGodSins,
-  ...mediumAgainstNeighboorSins
+  ...mediumAgainstNeighboorSins,
+  ...mediumAgainstYourselfSins,
+  ...graveAgainstNeighboorSins,
+  ...graveAgainstYourselfSins
 ];
